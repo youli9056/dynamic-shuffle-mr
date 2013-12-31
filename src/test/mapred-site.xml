@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>mapred.job.tracker</name>
+		<value>127.0.0.1:9001</value>
+	</property>
+	<property>
+		<name>mapred.job.tracker.handler.count</name>
+		<value>3</value>
+	</property>
+	<property>
+		<name>hadoop.job.history.location</name>
+		<value>file:///home/youli/workspace/hadoop-1.1.2/logs/job/history</value>
+	</property>
+	<property>
+		<name>webinterface.private.actions</name>
+		<value>true</value>
+	</property>
+</configuration>
